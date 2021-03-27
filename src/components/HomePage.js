@@ -42,6 +42,7 @@ const HomePage = () => {
                     className={classes.media}
                     image="/static/images/car.jpeg"
                     title="Car"
+                    
                 />
                 <CardContent>
                     <Typography variant="body2" color="textSecondary" component="p">
