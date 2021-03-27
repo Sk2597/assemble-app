@@ -12,7 +12,7 @@ function App() {
      <Router>
         <Switch>
           <Route exact path='/' component={HomePage} />
-          <Route path="/stepsToAssemble" render={props => <SelectParts />} />
+          <Route path="/selectparts" render={props => <SelectParts />} />
           <Route path="/assemble" render={props => <Assemble />} />
         </Switch>
       </Router>

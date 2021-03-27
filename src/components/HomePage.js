@@ -50,7 +50,7 @@ const HomePage = () => {
                 </CardContent>
                 <CardActions disableSpacing>
                 <div className={classes.buttonRight} >  
-                <Link to="/stepsToAssemble">
+                <Link to="/selectparts">
                     <Button variant="contained" color="primary">
                         Start
                     </Button>

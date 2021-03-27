@@ -5,18 +5,10 @@
     import GridListTileBar from '@material-ui/core/GridListTileBar';
     import Checkbox from '@material-ui/core/Checkbox';
     import { Typography } from '@material-ui/core';
-    // import { purple } from '@material-ui/core/colors';
     import Button from '@material-ui/core/Button';
     import { Link } from "react-router-dom";
 
     const useStyles = makeStyles((theme) => ({
-        // root: {
-        //     display: 'flex',
-        //     flexWrap: 'wrap',
-        //     justifyContent: 'space-around',
-        //     overflow: 'hidden',
-        //     backgroundColor: theme.palette.background.paper,
-        //   },
         gridList: {
             flexWrap: 'nowrap',
             transform: 'translateZ(0)',
@@ -111,13 +103,7 @@
            t.disableCheckbox = selectAllCheckbox
         })
     }
-
-    // pushElement(partState);
     }
-
-        // const handleCheckboxDisable = () => {
-        
-        // }
 
     return (
         <div style = {{padding: '5%'}}>

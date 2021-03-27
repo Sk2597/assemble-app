@@ -2,17 +2,12 @@ import React from "react";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import IconButton from "@material-ui/core/IconButton";
-// import DeleteIcon from "@material-ui/icons/Delete";
 import { Draggable } from "react-beautiful-dnd";
-
-// import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
-// import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -42,10 +37,6 @@ const ListItemCustom = ({ itemObject, index }) => {
           {...provided.draggableProps}
           {...provided.dragHandleProps}
         >
-          {/* <ListItemText
-            styles={{ fontFamily: "Quicksand" }}
-            primary={`${itemObject.name}`}
-          /> */}
           <Card className={classes.root} style={{display: 'inline-block'}}>
             {/* <CardHeader title={`${itemObject.name}`} /> */}
             <CardContent>
